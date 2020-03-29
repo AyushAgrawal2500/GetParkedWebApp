@@ -88,7 +88,7 @@
                         height: 120px;
                         width: 120px;
                         overflow: hidden;
-                        border: 3.5px solid #363232;
+                        border: 3.5px solid #494848;
                         border-radius: 50%;
                         box-sizing: border-box;
 
@@ -103,7 +103,7 @@
                     .qb-user-info{
                         padding-top: 5px;
                         text-align: center;
-                        color: rgb(29, 19, 19);
+                        color: #353232;
 
                         .qb-user-name{
                             font-size: 20px;
@@ -127,6 +127,7 @@
 
                     .qb-side-menu-item{
                         font-size: 16px;
+                        color: #353232;
                         padding: 15px 20px;
 
                         .qb-side-menu-item-icon{
@@ -151,6 +152,8 @@
                     font-size: 15px;
                     text-align: center;
                     font-family: "Roboto";
+                    font-weight: 500;
+                    color: #353232;
                     padding-bottom: 10px;
                 }
                 .qb-sign-out-btn{

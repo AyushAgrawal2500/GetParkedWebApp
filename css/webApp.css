@@ -95,7 +95,7 @@
   height: 120px;
   width: 120px;
   overflow: hidden;
-  border: 3.5px solid #363232;
+  border: 3.5px solid #494848;
   border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -108,7 +108,7 @@
 .qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-info-wrap .qb-user-info {
   padding-top: 5px;
   text-align: center;
-  color: #1d1313;
+  color: #353232;
 }
 
 .qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-info-wrap .qb-user-info .qb-user-name {
@@ -132,6 +132,7 @@
 
 .qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-menu-wrap .qb-side-menu .qb-side-menu-item {
   font-size: 16px;
+  color: #353232;
   padding: 15px 20px;
 }
 
@@ -156,6 +157,8 @@
   font-size: 15px;
   text-align: center;
   font-family: "Roboto";
+  font-weight: 500;
+  color: #353232;
   padding-bottom: 10px;
 }
 
