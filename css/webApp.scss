@@ -1,0 +1,254 @@
+.qbCardShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28); 
+}
+.qb-header{
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    width: 100%;
+    top: 4%;
+    left: 0%;
+    height: auto;
+
+    .qb-header-content-wrap{
+        width: 100%;
+
+        .qb-header-content{
+            display: inline-block;
+            text-align: center;
+            width: 85%;
+            background-color: white;
+            border-radius: 5px;
+            border: 2px solid #e3e3e3;
+
+            .qb-navbar-icon{
+                padding: 10px 10px;
+            }
+
+            .qb-header-search-bar{
+                border: unset;
+                width: 80%;
+                font-size: 14px;
+                font-weight: 500;
+                font-family: 'Montserrat';
+            }
+
+            .qb-header-search-bar:focus{
+                outline: none;
+            }
+        }
+    }
+}
+
+.qb-side-nav-modal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    width:0%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0);
+
+    .qb-side-nav-wrap{
+        background-color: #fff;
+        width: 0%;
+        height: 100%;
+        float: left;
+    
+        .qb-side-nav{
+            position: relative;
+            height: 100%;
+            display: block;
+            visibility: hidden;
+            background-color: #fff;
+
+            .qb-side-nav-logo{
+                position: relative;
+                text-align: center;
+                display: block;
+                font-size: 23px;
+                padding: 15px 15%;
+                font-weight: 600;
+                color: #00D103;
+            }
+
+            .qb-user-details{
+                font-family: "Mukta";
+                border-top: 2px solid #69F46B;
+                border-bottom: 2px solid #69F46B;
+                padding: 15px 0px;
+
+                .qb-user-img-wrap{
+                    text-align: center;
+                    
+                    .qb-user-img-cover{
+                        display: inline-block;
+                        height: 120px;
+                        width: 120px;
+                        overflow: hidden;
+                        border: 3.5px solid #363232;
+                        border-radius: 50%;
+                        box-sizing: border-box;
+
+                        .qb-user-img{
+                            margin: -15px -20px;
+                        }
+                    }
+                }
+
+                .qb-user-info-wrap{
+
+                    .qb-user-info{
+                        padding-top: 5px;
+                        text-align: center;
+                        color: rgb(29, 19, 19);
+
+                        .qb-user-name{
+                            font-size: 20px;
+                            font-weight: 550;
+                        }
+
+                        .qb-user-email{
+                            font-size: 15px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+
+            .qb-side-menu-wrap{
+                background-color: #fff;
+                font-family: 'Mukta';
+
+                .qb-side-menu{
+                    padding-top: 15px;
+
+                    .qb-side-menu-item{
+                        font-size: 16px;
+                        padding: 15px 20px;
+
+                        .qb-side-menu-item-icon{
+                            display: inline-block;
+                            padding-left: 15px;
+                            padding-right: 20px;
+                            width: 50px;
+                        }
+                        .qb-side-menu-item-name{
+                            padding-left: 10px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+
+            .qb-sign-out-wrap{
+                padding: 10px;
+                text-align: center;
+
+                .qb-sign-out-text{
+                    font-size: 15px;
+                    text-align: center;
+                    font-family: "Roboto";
+                    padding-bottom: 10px;
+                }
+                .qb-sign-out-btn{
+                    display: inline-block;
+                    padding: 5px 20px;
+                    font-size: 15px;
+                    border-radius: 3px;
+                    color: #fff;
+                    background-color: #06A763;
+                }
+            }
+        }
+    }
+
+    .qb-side-nav-bg{ 
+        width: 100%;
+        height: 100%;
+        float: left;
+        
+        .qb-close-btn{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            display: inline-block;
+            opacity: 0;
+            padding: 12px 20px;
+            font-size: 22px;
+        
+        }
+    }
+
+}
+
+.qb-side-nav-modal-show{
+    animation-name: qb-side-nav-modal-show;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+    .qb-side-nav-wrap{
+        animation-name: qb-side-nav-wrap-show;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+
+        .qb-side-nav{
+            animation-name: qb-side-nav-show;
+            animation-duration: 0.5s;
+            animation-delay: 0.5s;
+            animation-fill-mode: forwards;
+
+            .qb-side-nav-logo{
+
+            }
+        }
+    }
+    
+    .qb-side-nav-bg{
+        width: 20%;
+    
+        .qb-close-btn{
+            animation-name: qb-close-btn-show;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+
+.qb-side-nav-modal-hide{
+    animation-name: qb-side-nav-modal-hide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+    .qb-side-nav-wrap{
+        animation-name: qb-side-nav-wrap-hide;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+
+        .qb-side-nav{
+            visibility: hidden;
+            
+            .qb-side-nav-logo{
+            
+            }
+        }
+    }
+    
+    .qb-side-nav-bg{
+        width: 0%;
+
+        .qb-close-btn{
+            animation-name: qb-close-btn-hide;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
+        
+        }
+    }
+}
+.qb-map-wrap{
+    width:-webkit-fill-available;
+    overflow:hidden;
+}

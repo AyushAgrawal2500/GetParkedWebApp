@@ -1,0 +1,196 @@
+@-webkit-keyframes qb-side-nav-modal-show {
+  0% {
+    display: block;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+@keyframes qb-side-nav-modal-show {
+  0% {
+    display: block;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+@-webkit-keyframes qb-side-nav-modal-hide {
+  0% {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  50% {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    display: none;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes qb-side-nav-modal-hide {
+  0% {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  50% {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    display: none;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@-webkit-keyframes qb-side-nav-wrap-show {
+  0% {
+    display: block;
+    width: 0%;
+  }
+  100% {
+    display: none;
+    width: 80%;
+  }
+}
+
+@keyframes qb-side-nav-wrap-show {
+  0% {
+    display: block;
+    width: 0%;
+  }
+  100% {
+    display: none;
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes qb-side-nav-wrap-hide {
+  100% {
+    display: block;
+    width: 0%;
+  }
+  0% {
+    display: none;
+    width: 80%;
+  }
+}
+
+@keyframes qb-side-nav-wrap-hide {
+  100% {
+    display: block;
+    width: 0%;
+  }
+  0% {
+    display: none;
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes qb-side-nav-show {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes qb-side-nav-show {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes qb-side-nav-hide {
+  100% {
+    visibility: hidden;
+  }
+  0% {
+    visibility: visible;
+  }
+}
+
+@keyframes qb-side-nav-hide {
+  100% {
+    visibility: hidden;
+  }
+  0% {
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes qb-close-btn-show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes qb-close-btn-show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes qb-close-btn-hide {
+  100% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+}
+
+@keyframes qb-close-btn-hide {
+  100% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=webAppAnimation.css.map */

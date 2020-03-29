@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Parked Web App</title>
+    <script src="js/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Mukta:400,500,600,700,800|Roboto:400,500,700,900&display=swap" rel="stylesheet"> 
+    <script src="js/webApp.js"></script>
+    <link rel="stylesheet" href="css/webApp.css">
+    <link rel="stylesheet" href="css/webAppAnimation.css">
+</head>
+<body ng-app="qbApp" ng-controller="qbCtrl">
+    <div class="qb-header">
+        <div class="qb-header-content-wrap">
+            <div class="qb-header-content qbCardShadow">
+                <i class="fa fa-bars qb-navbar-icon" ng-click="qbSideNavOpenFun()"></i>
+                <input type="text" placeholder="Enter Your Destination" class="qb-header-search-bar">
+            </div>
+        </div>
+    </div>
+    <div class="qb-side-nav-modal">
+        <div class="qb-side-nav-wrap">
+            <div class="qb-side-nav">
+                <div class="qb-side-nav-logo">
+                    <span><i class="fas fa-car"></i></span>
+                    <span>Get Parked</span>
+                </div>
+                <div class="qb-user-details">
+                    <div class="qb-user-img-wrap">
+                        <div class="qb-user-img-cover">
+                            <img class="qb-user-img" height="150" width="150" src="https://img.icons8.com/carbon-copy/100/000000/user.png"/>
+                        </div>
+                    </div>
+                    <div class="qb-user-info-wrap">
+                        <div class="qb-user-info">
+                            <span class="qb-user-name">Ayush Agrawal</span>
+                            <span class="qb-user-email">agrawal.ayush2500@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qb-side-menu-wrap">
+                    <div class="qb-side-menu">
+                        <div class="qb-side-menu-item">
+                            <span class="qb-side-menu-item-icon"><i class="fas fa-home"></i></span>
+                            <span class="qb-side-menu-item-name">Home</span>
+                        </div>
+                        <div class="qb-side-menu-item">
+                            <span class="qb-side-menu-item-icon"><i class="fas fa-history"></i></span>
+                            <span class="qb-side-menu-item-name">History</span>
+                        </div>
+                        <div class="qb-side-menu-item">
+                            <span class="qb-side-menu-item-icon"><i class="fas fa-rupee-sign"></i></span>
+                            <span class="qb-side-menu-item-name">Balance</span>
+                        </div>
+                        <div class="qb-side-menu-item">
+                            <span class="qb-side-menu-item-icon"><i class="far fa-user"></i></span>
+                            <span class="qb-side-menu-item-name">Account</span>
+                        </div>
+                        <div class="qb-side-menu-item">
+                            <span class="qb-side-menu-item-icon"><i class="fas fa-cog"></i></span>
+                            <span class="qb-side-menu-item-name">Settings</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qb-sign-out-wrap">
+                    <div class="qb-sign-out-text">Do you Want to Sign Out</div>
+                    <div class="qb-sign-out-btn qbCardShadow">Sign Out</div>
+                </div>
+            </div>
+        </div>
+        <div class="qb-side-nav-bg" ng-click="qbSideNavCloseFun()">
+            <div class="qb-close-btn">
+                <i class="fa fa-times" ng-click="qbSideNavCloseFun()"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Start-->
+    <div class="qb-map-wrap">
+        <iframe class="qb-map-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3213.0670562078108!2d81.32628078622938!3d21.216710180344595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1585400549737!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!--End-->
+
+
+</body>
+</html>

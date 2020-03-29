@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Parked Web App</title>
+    <script src="js/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <script src="js/webApp.js"></script>
+    <link rel="stylesheet" href="css/webApp.css">
+    <style>
+        .qb-map-wrap{
+            width:-webkit-fill-available;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body ng-app="qbApp" ng-controller="qbCtrl">
+    <div class="qb-header">
+        <div class="qb-header-content-wrap">
+            <div class="qb-header-content qbCardShadow">
+                <i class="fa fa-bars qb-navbar-icon" ng-click="qbSideNavOpenFun()"></i>
+                <input type="text" placeholder="Enter Your Destination" class="qb-header-search-bar">
+            </div>
+        </div>
+    </div>
+    <div class="qb-side-nav-modal">
+        <div class="qb-side-nav-wrap">
+            <div class="qb-side-nav">
+
+            </div>
+        </div>
+        <div class="qb-side-nav-bg" ng-click="qbSideNavCloseFun()">
+            <div class="qb-close-btn">
+                <i class="fa fa-times" ng-click="qbSideNavCloseFun()"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Start-->
+    <div class="qb-map-wrap">
+        <iframe class="qb-map-wrap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3213.0670562078108!2d81.32628078622938!3d21.216710180344595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1585400549737!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!--End-->
+
+
+</body>
+</html>

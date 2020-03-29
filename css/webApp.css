@@ -1,0 +1,268 @@
+.qbCardShadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
+}
+
+.qb-header {
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  width: 100%;
+  top: 4%;
+  left: 0%;
+  height: auto;
+}
+
+.qb-header .qb-header-content-wrap {
+  width: 100%;
+}
+
+.qb-header .qb-header-content-wrap .qb-header-content {
+  display: inline-block;
+  text-align: center;
+  width: 85%;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #e3e3e3;
+}
+
+.qb-header .qb-header-content-wrap .qb-header-content .qb-navbar-icon {
+  padding: 10px 10px;
+}
+
+.qb-header .qb-header-content-wrap .qb-header-content .qb-header-search-bar {
+  border: unset;
+  width: 80%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+}
+
+.qb-header .qb-header-content-wrap .qb-header-content .qb-header-search-bar:focus {
+  outline: none;
+}
+
+.qb-side-nav-modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 0%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap {
+  background-color: #fff;
+  width: 0%;
+  height: 100%;
+  float: left;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav {
+  position: relative;
+  height: 100%;
+  display: block;
+  visibility: hidden;
+  background-color: #fff;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-nav-logo {
+  position: relative;
+  text-align: center;
+  display: block;
+  font-size: 23px;
+  padding: 15px 15%;
+  font-weight: 600;
+  color: #00D103;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details {
+  font-family: "Mukta";
+  border-top: 2px solid #69F46B;
+  border-bottom: 2px solid #69F46B;
+  padding: 15px 0px;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-img-wrap {
+  text-align: center;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-img-wrap .qb-user-img-cover {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+  border: 3.5px solid #363232;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-img-wrap .qb-user-img-cover .qb-user-img {
+  margin: -15px -20px;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-info-wrap .qb-user-info {
+  padding-top: 5px;
+  text-align: center;
+  color: #1d1313;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-info-wrap .qb-user-info .qb-user-name {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-user-details .qb-user-info-wrap .qb-user-info .qb-user-email {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-menu-wrap {
+  background-color: #fff;
+  font-family: 'Mukta';
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-menu-wrap .qb-side-menu {
+  padding-top: 15px;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-menu-wrap .qb-side-menu .qb-side-menu-item {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-menu-wrap .qb-side-menu .qb-side-menu-item .qb-side-menu-item-icon {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 20px;
+  width: 50px;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-side-menu-wrap .qb-side-menu .qb-side-menu-item .qb-side-menu-item-name {
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-sign-out-wrap {
+  padding: 10px;
+  text-align: center;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-sign-out-wrap .qb-sign-out-text {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto";
+  padding-bottom: 10px;
+}
+
+.qb-side-nav-modal .qb-side-nav-wrap .qb-side-nav .qb-sign-out-wrap .qb-sign-out-btn {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #06A763;
+}
+
+.qb-side-nav-modal .qb-side-nav-bg {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.qb-side-nav-modal .qb-side-nav-bg .qb-close-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  opacity: 0;
+  padding: 12px 20px;
+  font-size: 22px;
+}
+
+.qb-side-nav-modal-show {
+  -webkit-animation-name: qb-side-nav-modal-show;
+          animation-name: qb-side-nav-modal-show;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-side-nav-modal-show .qb-side-nav-wrap {
+  -webkit-animation-name: qb-side-nav-wrap-show;
+          animation-name: qb-side-nav-wrap-show;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-side-nav-modal-show .qb-side-nav-wrap .qb-side-nav {
+  -webkit-animation-name: qb-side-nav-show;
+          animation-name: qb-side-nav-show;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-side-nav-modal-show .qb-side-nav-bg {
+  width: 20%;
+}
+
+.qb-side-nav-modal-show .qb-side-nav-bg .qb-close-btn {
+  -webkit-animation-name: qb-close-btn-show;
+          animation-name: qb-close-btn-show;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-side-nav-modal-hide {
+  -webkit-animation-name: qb-side-nav-modal-hide;
+          animation-name: qb-side-nav-modal-hide;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-side-nav-modal-hide .qb-side-nav-wrap {
+  -webkit-animation-name: qb-side-nav-wrap-hide;
+          animation-name: qb-side-nav-wrap-hide;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-side-nav-modal-hide .qb-side-nav-wrap .qb-side-nav {
+  visibility: hidden;
+}
+
+.qb-side-nav-modal-hide .qb-side-nav-bg {
+  width: 0%;
+}
+
+.qb-side-nav-modal-hide .qb-side-nav-bg .qb-close-btn {
+  -webkit-animation-name: qb-close-btn-hide;
+          animation-name: qb-close-btn-hide;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.qb-map-wrap {
+  width: -webkit-fill-available;
+  overflow: hidden;
+}
+/*# sourceMappingURL=webApp.css.map */
