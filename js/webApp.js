@@ -15,6 +15,8 @@ myApp.controller('qbCtrl', ['$scope','$window','$compile', function($scope,$wind
         angular.element(qbMapIframe).attr("width",window.innerWidth);
         angular.element(qbMapIframe).attr("height",window.innerHeight);
     });
+
+    console.log("Something Added Before Pushing.")
 }]);
 myApp.service('qbBasics',qbBasics);
 qbBasics.$inject=['$compile'];
